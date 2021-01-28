@@ -1,10 +1,10 @@
-import Head from 'next/head';
+import styles from '../styles/Home.module.scss';
 
 export default function Header() {
 	return (
-		<Head>
-			<title>Create Next App</title>
-			<link rel="icon" href="/favicon.ico" />
-		</Head>
+		<div className={styles.title}>
+			<h1>Header2</h1>
+			<img src="/vercel.svg" />
+		</div>
 	);
 }
